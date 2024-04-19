@@ -23,7 +23,7 @@ public class LoginPage1 {
     public void login(String mail, String passw, String language) {
         login.sendKeys(mail);
         password.sendKeys(passw);
-        Language.sendKeys(language);
+        Language.click(language);
         LoginButton1.click();
 
     }
