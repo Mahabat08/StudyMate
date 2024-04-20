@@ -1,0 +1,83 @@
+Test Steps:
+
+Test Steps:
+
+1.Navigate to the search box on the Ticketmaster website's homepage.
+2Enter a short search query containing only a few characters, such as "abc", into the search box.
+3.Press the Enter key or click on the search icon.
+
+Expected Result:
+The search results page should display relevant events or suggestions based on the short search query "abc".
+
+Test Case 2: Verify Search with Long Query
+Objective: To verify that the search function handles long search queries without issues.
+
+Preconditions:
+
+Open the Ticketmaster website.
+Ensure a stable internet connection.
+
+Test Steps:
+1.Navigate to the search box on the Ticketmaster website's homepage.
+2.Enter a long search query containing multiple words or characters, such as "International Jazz Festival New York 2024", into the search box.
+3.Press the Enter key or click on the search icon.
+Expected Result:
+The search results page should accurately display events matching the long search query "International Jazz Festival New York 2024".
+
+Test Case 2: Verify Search Suggestions Dropdown
+Objective: To verify that the search function provides relevant suggestions in the dropdown menu.
+
+Preconditions:
+Open the Ticketmaster website.
+Ensure a stable internet connection.
+Test Steps:
+
+1.Navigate to the search box on the Ticketmaster website's homepage.
+2.Type a partial search query, such as "Foo", into the search box.
+3.Observe the dropdown menu for search suggestions.
+Expected Result:
+The dropdown menu should display relevant suggestions based on the partial search query, such as "Foo Fighters", "Food Festivals", etc.
+
+Test Case 4: Verify Search with Mixed Case
+Objective: To verify that the search function is case-insensitive and handles mixed-case search queries appropriately.
+
+Preconditions:
+
+Open the Ticketmaster website.
+Ensure a stable internet connection.
+
+Test Steps:
+1.Navigate to the search box on the Ticketmaster website's homepage.
+2.Enter a search query with mixed-case characters, such as "CoNcErT tIcKeTs", into the search box.
+3.Press the Enter key or click on the search icon.
+Expected Result:
+The search results page should treat the mixed-case search query "CoNcErT tIcKeTs" as case-insensitive and display relevant events accordingly.
+
+Test Case 4: Verify Search Filtering Options
+Objective: To verify that the search function offers filtering options for refining search results.
+
+Preconditions:
+Open the Ticketmaster website.
+Ensure a stable internet connection.
+
+Test Steps:
+1.Perform a search for a generic term, such as "Music".
+2.Observe the search results page for available filtering options, such as "Location", "Date", "Genre", etc.
+3.Apply at least one filtering option, such as selecting a specific location or date range.
+
+Expected Result:
+The search results page should update to display events matching the applied filtering options, refining the search results based on the user's preferences.
+
+Test Case 5: Verify Search with Synonyms
+Objective: To verify that the search function recognizes synonyms and returns relevant results.
+
+Preconditions:
+1.Open the Ticketmaster website.
+2.Ensure a stable internet connection.
+Test Steps:
+1.Navigate to the search box on the Ticketmaster website's homepage.
+2.Enter a search query containing a synonym for a common event term, such as "live performance" instead of "concert".
+3.Press the Enter key or click on the search icon.
+
+Expected Result:
+The search results page should recognize the synonym "live performance" and display relevant events similar to those typically associated with the term "concert".
